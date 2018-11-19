@@ -859,7 +859,7 @@ Move!
                                                                                                                                                 "Though, your knife was bent, the knife sunk in just enough to kill it. \n" +
                                                                                                                                                 "What do you do now? \n" +
                                                                                                                                                 "(A). Skin it? \n" +
-                                                                                                                                                "(B). Eat its flesh? \n" +
+                                                                                                                                                "(B). Eat it raw like a man!? \n" +
                                                                                                                                                 "\n");
 
                                                                                                                                             while (true)
@@ -883,7 +883,8 @@ Move!
                                                                                                                                                             Console.Write("You use your blade to skin the deer. \n" +
                                                                                                                                                                 "You cut into it softly to not damage the blade more. \n" +
                                                                                                                                                                 "cutting from the base of the neck down to the stomach. \n" +
-                                                                                                                                                                "Though its pelt is very tough, you relize it was the musles in the deer");
+                                                                                                                                                                "Though its pelt is very tough, you realize it was the deer's muscles the bent your blade. \n" +
+                                                                                                                                                                "You finish ");
                                                                                                                                                         }
                                                                                                                                                         //-
                                                                                                                                                         if (whatToSkinWith == "B" || whatToSkinWith == "b")
