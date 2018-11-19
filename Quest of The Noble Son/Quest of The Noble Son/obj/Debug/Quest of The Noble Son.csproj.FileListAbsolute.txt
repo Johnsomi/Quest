@@ -1,0 +1,6 @@
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\bin\Debug\Quest of The Noble Son.exe.config
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\bin\Debug\Quest of The Noble Son.exe
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\bin\Debug\Quest of The Noble Son.pdb
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\obj\Debug\Quest of The Noble Son.csprojResolveAssemblyReference.cache
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\obj\Debug\Quest of The Noble Son.exe
+c:\users\mj4100\documents\visual studio 2017\Projects\Quest of The Noble Son\Quest of The Noble Son\obj\Debug\Quest of The Noble Son.pdb
