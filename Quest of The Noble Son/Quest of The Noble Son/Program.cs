@@ -42,7 +42,7 @@ namespace Quest_of_The_Noble_Son
             double Crit = playerEquipATK * 1.5;
 
             int Gold = 0;
-            //bcehdbvjfb
+            //bcehdbvjfb vghcngcnfj
 
 
             Console.Write(@"Welcome to 'Title Here'
