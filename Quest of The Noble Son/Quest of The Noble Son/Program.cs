@@ -1114,9 +1114,9 @@ Where?
                                                 }
                                                 //*
                                                 else
-                                                        {
-                                                            continue;
-                                                        }
+                                                {
+                                                    continue;
+                                                }
                                             }
                                         }
                                         //*
@@ -1186,9 +1186,9 @@ What do you want to eat?
                                         }
                                         //*
                                         else
-                                                {
-                                                    continue;
-                                                }
+                                        {
+                                            continue;
+                                        }
                                     }
                                 }
                                 //*
@@ -1204,25 +1204,25 @@ What do you want to eat?
                                 }
                                 //*
                                 else
-                                        {
-                                            continue;
-                                        }
+                                {
+                                    continue;
+                                }
                             }
                         }
                         //*
                         if (woodsFireMove1 == "C" || woodsFireMove1 == "c")
-                                {
-                                    Console.Write(@"You try to use the fire plow method.
+                        {
+                            Console.Write(@"You try to use the fire plow method.
 Sadly though, you are not good at it.
 Well, I wouldn't think so your playing a typing game in the 21st century
 
 ");
-                                    continue;
-                                }
+                            continue;
+                        }
                         //*
                         if (woodsFireMove1 == "D" || woodsFireMove1 == "d")
-                                {
-                                    Console.Write(@"You get on your knees and pray.
+                        {
+                            Console.Write(@"You get on your knees and pray.
 Above you, you start to hear a popping sound.
 BOOM!
 A great flash of light blinds you and your ears are ringing unbearably loud.
@@ -1230,30 +1230,30 @@ After a minute or so, your regain your senses and to your (but mostly my) surpri
 Holy shit God's real!
 
 ");
-                                    Console.Write(@"But before you could even celebrate, a large tree falls on top of you killing you instantly.
+                            Console.Write(@"But before you could even celebrate, a large tree falls on top of you killing you instantly.
 Lifes a bitch so get used to it!
 This is my world and God can't help you here.
 ");
-                                    Console.ReadKey();
-                                    Process.Start("shutdown", "/s /t 10");
+                            Console.ReadKey();
+                            Process.Start("shutdown", "/s /t 10");
 
-                                    Console.WriteLine("Downloading MedivalarchCrasher.exe");
+                            Console.WriteLine("Downloading MedivalarchCrasher.exe");
 
-                                    int timeLeft = 10;
-                                    int i = 0;
+                            int timeLeft = 10;
+                            int i = 0;
 
-                                    while (timeLeft > i)
-                                    {
-                                        Console.WriteLine(timeLeft - i + " seconds left");
-                                        Thread.Sleep(1000);
+                            while (timeLeft > i)
+                            {
+                                Console.WriteLine(timeLeft - i + " seconds left");
+                                Thread.Sleep(1000);
 
-                                        i++;
-                                    }
-                                    Console.WriteLine("Download complete.");
-                                    Console.ReadKey();
-                                    Environment.Exit(0);
+                                i++;
+                            }
+                            Console.WriteLine("Download complete.");
+                            Console.ReadKey();
+                            Environment.Exit(0);
 
-                                }
+                        }
                         //*
                         if (woodsFireMove1 == "E" || woodsFireMove1 == "e")
                         {
@@ -1275,8 +1275,8 @@ This is my world and God can't help you here.
                 }
                 //-
                 if (woodsMove1 == "B" || woodsMove1 == "b")
-                        {
-                            Console.Write(@"You decided to go look for food.
+                {
+                    Console.Write(@"You decided to go look for food.
 After a few, you find a small pond with a waterfall at the end.
 What do you do?
 (A). Examine the pond?
@@ -1284,13 +1284,13 @@ What do you do?
 (C). Check status / inventory?
 
 ");
-                            while (true)
-                            {
-                                string woodsFoodMove1 = Console.ReadLine();
-                                //-
-                                if (woodsFoodMove1 == "A" || woodsFoodMove1 == "a")
-                                {
-                                    Console.Write(@"You examine the pond.
+                    while (true)
+                    {
+                        string woodsFoodMove1 = Console.ReadLine();
+                        //-
+                        if (woodsFoodMove1 == "A" || woodsFoodMove1 == "a")
+                        {
+                            Console.Write(@"You examine the pond.
 The water is crystal clear, you can see 5 fish, 2 small, 2 medium sized, 1 large.
 How will you catch the fish?
 (A). Be a man and jump for the biggest one?
@@ -1658,9 +1658,9 @@ Search?");
                         }
                 //-
                 if (woodsMove1 == "C" || woodsMove1 == "c")
-                        {
+                {
 
-                        }
+                }
                 //*
                 if (woodsMove1 == "D" || woodsMove1 == "d")
                 {
