@@ -1270,7 +1270,6 @@ This is my world and God can't help you here.
                         {
                             continue;
                         }
-
                     }
                 }
                 //-
@@ -1298,14 +1297,14 @@ How will you catch the fish?
 (C). Check status / inventory?
 
 ");
-                                    while (true)
-                                    {
-                                        string woodsPondFoodMove1 = Console.ReadLine();
-                                        //-
-                                        if (woodsPondFoodMove1 == "A" || woodsPondFoodMove1 == "a")
-                                        {
-                                            playerHP = playerHP - 2.5;
-                                            Console.Write(@"You decide to be a man and jump for the biggest fish.
+                            while (true)
+                            {
+                                string woodsPondFoodMove1 = Console.ReadLine();
+                                //-
+                                if (woodsPondFoodMove1 == "A" || woodsPondFoodMove1 == "a")
+                                {
+                                    playerHP = playerHP - 2.5;
+                                    Console.Write(@"You decide to be a man and jump for the biggest fish.
 You land on top of it and it instantly starts to thrash around.
 The fish is surprisingly strong and its fins are very sharp cutting up your hands and arms.
 Suddenly, the fish stops, you can tell by the way it stopped that it definitely wasn't tired.
@@ -1315,26 +1314,26 @@ What do you want to do?
 (B). Let it go?
 
 ");
-                                            while (true)
-                                            {
-                                                string fishManMove = Console.ReadLine();
-                                                //*
-                                                if (fishManMove == "A" || fishManMove == "a")
-                                                {
-                                                    Console.Write(@"You start to drag it out of the water when a sudden rush of pain goes up your leg.
+                                    while (true)
+                                    {
+                                        string fishManMove = Console.ReadLine();
+                                        //*
+                                        if (fishManMove == "A" || fishManMove == "a")
+                                        {
+                                            Console.Write(@"You start to drag it out of the water when a sudden rush of pain goes up your leg.
 The other fish started to eat your legs!
 You let go of the fish and try to swim away, but it's too late.
 The big fish swims at you and tears off your arm with a single bite.
 The fish eat you alive and you die.
 For the future if you feel somethings off, it probably is.
 ");
-                                                    Console.ReadKey();
-                                                    Environment.Exit(0);
-                                                }
-                                                //-
-                                                if (fishManMove == "B" || fishManMove == "b")
-                                                {
-                                                    Console.Write(@"You let go of the fish and swim to shore
+                                            Console.ReadKey();
+                                            Environment.Exit(0);
+                                        }
+                                        //-
+                                        if (fishManMove == "B" || fishManMove == "b")
+                                        {
+                                            Console.Write(@"You let go of the fish and swim to shore
 Nothing else happens.
 What now?
 (A). Set up camp?
@@ -1343,221 +1342,16 @@ What now?
 (D). Examine waterfall?
 
 ");
-                                                    while (true)
-                                                    {
-                                                        string fishAfterManMove = Console.ReadLine();
-                                                        //-
-                                                        if (fishAfterManMove == "A" || fishAfterManMove == "a")
-                                                        {
-
-                                                        }
-                                                        //-
-                                                        if (fishAfterManMove == "B" || fishAfterManMove == "b")
-                                                        {
-                                                            Console.Write(@"How do you wish to fish?
-(A). Make something?
-(B). Jump for one?
-(C). Use bait?
-
-");
-                                                            while (true)
-                                                            {
-                                                                string fishSmartNotHard = Console.ReadLine();
-                                                                //-
-                                                                if (fishSmartNotHard == "A" || fishSmartNotHard == "a")
-                                                                {
-
-                                                                }
-                                                                //-
-                                                                if (fishSmartNotHard == "B" || fishSmartNotHard == "b")
-                                                                {
-
-                                                                }
-                                                                //-
-                                                                if (fishSmartNotHard == "C" || fishSmartNotHard == "c")
-                                                                {
-
-                                                                }
-                                                            }
-                                                        }
-                                                        //-
-                                                        if (fishAfterManMove == "C" || fishAfterManMove == "c")
-                                                        {
-                                                            Console.Write(@"You decide to sleep.
-Where do you wish to sleep?
-(A). On ground?
-(B). In tree?
-(C). In pond?
-
-");
-                                                            while (true)
-                                                            {
-                                                                string lakeSurviveSleep = Console.ReadLine();
-                                                                //-
-                                                                if (lakeSurviveSleep == "A" || lakeSurviveSleep == "a")
-                                                                {
-                                                                    Console.Write(@"You decide to sleep on the ground.
-You wake up the next morning and almost shit yourself because a black bear is looking directly at you.
-What do you do?
-(A). Play dead?
-(B). Intimidate?
-
-");
-                                                                    while (true)
-                                                                    {
-                                                                        string bearMeetUp = Console.ReadLine();
-                                                                        //*
-                                                                        if (bearMeetUp == "A" || bearMeetUp == "a")
-                                                                        {
-                                                                            Console.Write(@"You lay motionless trying not to make a sound.
-The bear starts to walk towards but you keep your nerve and stay still.
-The bear is now inches from your face. You can smell its breath now and almost gag.
-SNAP!
-The bear crushed your neck killing you instantly.
-That was a black bear not a grizzly.
-");
-                                                                            Console.ReadKey();
-                                                                            Environment.Exit(0);
-                                                                        }
-                                                                        //-
-                                                                        if (bearMeetUp == "B" || bearMeetUp == "b")
-                                                                        {
-
-                                                                        }
-                                                                        //*
-                                                                        else
-                                                                        {
-                                                                            continue;
-                                                                        }
-                                                                    }
-                                                                }
-                                                                //-
-                                                                if (lakeSurviveSleep == "B" || lakeSurviveSleep == "b")
-                                                                {
-                                                                    Console.Write(@"You choose to sleep in a tree.
-");
-                                                                }
-                                                                //*
-                                                                if (lakeSurviveSleep == "C" || lakeSurviveSleep == "c")
-                                                                {
-                                                                    Console.Write(@"You choose to sleep in the pond.
-You fall asleep and at sunrise you don't wake up.
-You drowned dumbass!
-Why would you ever think that was a good idea?
-");
-                                                                    Console.ReadKey();
-                                                                    Environment.Exit(0);
-                                                                }
-                                                                //*
-                                                                else
-                                                                {
-                                                                    continue;
-                                                                }
-                                                            }
-                                                        }
-                                                        //-
-                                                        if (fishAfterManMove == "D" || fishAfterManMove == "d")
-                                                        {
-
-                                                        }
-                                                        //*
-                                                        else
-                                                        {
-                                                            continue;
-                                                        }
-                                                    }
-                                                }
-                                                //*
-                                                else
-                                                {
-                                                    continue;
-                                                }
-                                            }
-                                        }
-                                        //-
-                                        if (woodsPondFoodMove1 == "B" || woodsPondFoodMove1 == "b")
-                                        {
-                                            Console.Write(@"You decide to get a closer look at the fish.
-Which fish do you want to look at?
-(A). The blue one?
-(B). The green one?
-(C). The yellow one?
-(D). The red one?
-(E). The black one?
-(F). Finish examining?
-
-");
                                             while (true)
                                             {
-                                                string fishExamineMove = Console.ReadLine();
-                                                //*
-                                                if (fishExamineMove == "A" || fishExamineMove == "a")
-                                                {
-                                                    Console.Write(@"Blue: It's one of the medium sized ones. 
-It's dark blue in color and the water seems to look different around it.
-
-");
-                                                    continue;
-                                                }
-                                                //*
-                                                if (fishExamineMove == "B" || fishExamineMove == "b")
-                                                {
-                                                    Console.Write(@"Green: One of the smaller fish.
-It's deep green in color and seems to enjoy eating plants.
-
-");
-                                                    continue;
-                                                }
-                                                //*
-                                                if (fishExamineMove == "C" || fishExamineMove == "c")
-                                                {
-                                                    Console.Write(@"Yellow: It's one of the medium sized ones. 
-It's bright yellow and looks fat. It's bearly moving.
-
-");
-                                                    continue;
-                                                }
-                                                //*
-                                                if (fishExamineMove == "D" || fishExamineMove == "d")
-                                                {
-                                                    Console.Write(@"Red: One of the small fish.
-It's bright red and moves very quickly.
-
-");
-                                                    continue;
-                                                }
-                                                //*
-                                                if (fishExamineMove == "E" || fishExamineMove == "e")
-                                                {
-                                                    Console.Write(@"Black: The largest fish.
-It's dark black with purple accents. Its fins look very sharp.
-
-");
-                                                    continue;
-                                                }
-                                                //*
-                                                if (fishExamineMove == "F" || fishExamineMove == "f")
-                                                {
-                                                    break;
-                                                }
-                                                //*
-                                                else
-                                                {
-                                                    continue;
-                                                }
-                                            }
-                                            //-
-                                            Console.Write(@"What do you want to do?
-(A). Fish?
-(B). Set up camp?
-(C). Status / inventory?
-
-");
-                                            while (true)
-                                            {
-                                                string fishExaminedMove = Console.ReadLine();
+                                                string fishAfterManMove = Console.ReadLine();
                                                 //-
-                                                if (fishExaminedMove == "A" || fishExaminedMove == "a")
+                                                if (fishAfterManMove == "A" || fishAfterManMove == "a")
+                                                {
+
+                                                }
+                                                //-
+                                                if (fishAfterManMove == "B" || fishAfterManMove == "b")
                                                 {
                                                     Console.Write(@"How do you wish to fish?
 (A). Make something?
@@ -1567,22 +1361,91 @@ It's dark black with purple accents. Its fins look very sharp.
 ");
                                                     while (true)
                                                     {
-                                                        string howFishChoice = Console.ReadLine();
+                                                        string fishSmartNotHard = Console.ReadLine();
                                                         //-
-                                                        if (howFishChoice == "A" || howFishChoice == "a")
-                                                        {
-                                                            Console.Write(@"Don't have enough materials.
-Search?");
-                                                        }
-                                                        //-
-                                                        if (howFishChoice == "B" || howFishChoice == "b")
+                                                        if (fishSmartNotHard == "A" || fishSmartNotHard == "a")
                                                         {
 
                                                         }
                                                         //-
-                                                        if (howFishChoice == "C" || howFishChoice == "c")
+                                                        if (fishSmartNotHard == "B" || fishSmartNotHard == "b")
                                                         {
 
+                                                        }
+                                                        //-
+                                                        if (fishSmartNotHard == "C" || fishSmartNotHard == "c")
+                                                        {
+
+                                                        }
+                                                    }
+                                                }
+                                                //-
+                                                if (fishAfterManMove == "C" || fishAfterManMove == "c")
+                                                {
+                                                    Console.Write(@"You decide to sleep.
+Where do you wish to sleep?
+(A). On ground?
+(B). In tree?
+(C). In pond?
+
+");
+                                                    while (true)
+                                                    {
+                                                        string lakeSurviveSleep = Console.ReadLine();
+                                                        //-
+                                                        if (lakeSurviveSleep == "A" || lakeSurviveSleep == "a")
+                                                        {
+                                                            Console.Write(@"You decide to sleep on the ground.
+You wake up the next morning and almost shit yourself because a black bear is looking directly at you.
+What do you do?
+(A). Play dead?
+(B). Intimidate?
+
+");
+                                                            while (true)
+                                                            {
+                                                                string bearMeetUp = Console.ReadLine();
+                                                                //*
+                                                                if (bearMeetUp == "A" || bearMeetUp == "a")
+                                                                {
+                                                                    Console.Write(@"You lay motionless trying not to make a sound.
+The bear starts to walk towards but you keep your nerve and stay still.
+The bear is now inches from your face. You can smell its breath now and almost gag.
+SNAP!
+The bear crushed your neck killing you instantly.
+That was a black bear not a grizzly.
+");
+                                                                    Console.ReadKey();
+                                                                    Environment.Exit(0);
+                                                                }
+                                                                //-
+                                                                if (bearMeetUp == "B" || bearMeetUp == "b")
+                                                                {
+
+                                                                }
+                                                                //*
+                                                                else
+                                                                {
+                                                                    continue;
+                                                                }
+                                                            }
+                                                        }
+                                                        //-
+                                                        if (lakeSurviveSleep == "B" || lakeSurviveSleep == "b")
+                                                        {
+                                                            Console.Write(@"You choose to sleep in a tree.
+");
+                                                        }
+                                                        //*
+                                                        if (lakeSurviveSleep == "C" || lakeSurviveSleep == "c")
+                                                        {
+                                                            Console.Write(@"You choose to sleep in the pond.
+You fall asleep and at sunrise you don't wake up.
+You drowned dumbass!
+Why would you ever think that was a good idea?
+");
+                                                            Console.ReadKey();
+                                                            Environment.Exit(0);
                                                         }
                                                         //*
                                                         else
@@ -1592,20 +1455,9 @@ Search?");
                                                     }
                                                 }
                                                 //-
-                                                if (fishExaminedMove == "B" || fishExaminedMove == "b")
+                                                if (fishAfterManMove == "D" || fishAfterManMove == "d")
                                                 {
-
-                                                }
-                                                //*
-                                                if (fishExaminedMove == "C" || fishExaminedMove == "c")
-                                                {
-                                                    Console.Write(@"Health - " + playerHP + "/" + playerMaxHP +
-        "Attack - " + playerATK +
-        "Defence - " + playerDEF +
-        "Inventory - ");
-                                                    printInvo(Inventory);
-                                                    Console.WriteLine();
-                                                    continue;
+                                             
                                                 }
                                                 //*
                                                 else
@@ -1615,12 +1467,141 @@ Search?");
                                             }
                                         }
                                         //*
-                                        if (woodsPondFoodMove1 == "C" || woodsPondFoodMove1 == "c")
+                                        else
+                                        {
+                                            continue;
+                                        }
+                                    }
+                                }
+                                //-
+                                if (woodsPondFoodMove1 == "B" || woodsPondFoodMove1 == "b")
+                                {
+                                    Console.Write(@"You decide to get a closer look at the fish.
+Which fish do you want to look at?
+(A). The blue one?
+(B). The green one?
+(C). The yellow one?
+(D). The red one?
+(E). The black one?
+(F). Finish examining?
+
+");
+                                    while (true)
+                                    {
+                                        string fishExamineMove = Console.ReadLine();
+                                        //*
+                                        if (fishExamineMove == "A" || fishExamineMove == "a")
+                                        {
+                                            Console.Write(@"Blue: It's one of the medium sized ones. 
+It's dark blue in color and the water seems to look different around it.
+
+");
+                                            continue;
+                                        }
+                                        //*
+                                        if (fishExamineMove == "B" || fishExamineMove == "b")
+                                        {
+                                            Console.Write(@"Green: One of the smaller fish.
+It's deep green in color and seems to enjoy eating plants.
+
+");
+                                            continue;
+                                        }
+                                        //*
+                                        if (fishExamineMove == "C" || fishExamineMove == "c")
+                                        {
+                                            Console.Write(@"Yellow: It's one of the medium sized ones. 
+It's bright yellow and looks fat. It's bearly moving.
+
+");
+                                            continue;
+                                        }
+                                        //*
+                                        if (fishExamineMove == "D" || fishExamineMove == "d")
+                                        {
+                                            Console.Write(@"Red: One of the small fish.
+It's bright red and moves very quickly.
+
+");
+                                            continue;
+                                        }
+                                        //*
+                                        if (fishExamineMove == "E" || fishExamineMove == "e")
+                                        {
+                                            Console.Write(@"Black: The largest fish.
+It's dark black with purple accents. Its fins look very sharp.
+
+");
+                                            continue;
+                                        }
+                                        //*
+                                        if (fishExamineMove == "F" || fishExamineMove == "f")
+                                        {
+                                            break;
+                                        }
+                                        //*
+                                        else
+                                        {
+                                            continue;
+                                        }
+                                    }
+                                    //-
+                                    Console.Write(@"What do you want to do?
+(A). Fish?
+(B). Set up camp?
+(C). Status / inventory?
+
+");
+                                    while (true)
+                                    {
+                                        string fishExaminedMove = Console.ReadLine();
+                                        //-
+                                        if (fishExaminedMove == "A" || fishExaminedMove == "a")
+                                        {
+                                            Console.Write(@"How do you wish to fish?
+(A). Make something?
+(B). Jump for one?
+(C). Use bait?
+
+");
+                                            while (true)
+                                            {
+                                                string howFishChoice = Console.ReadLine();
+                                                //-
+                                                if (howFishChoice == "A" || howFishChoice == "a")
+                                                {
+                                                    Console.Write(@"Don't have enough materials.
+Search?");
+                                                }
+                                                //-
+                                                if (howFishChoice == "B" || howFishChoice == "b")
+                                                {
+
+                                                }
+                                                //-
+                                                if (howFishChoice == "C" || howFishChoice == "c")
+                                                {
+
+                                                }
+                                                //*
+                                                else
+                                                {
+                                                    continue;
+                                                }
+                                            }
+                                        }
+                                        //-
+                                        if (fishExaminedMove == "B" || fishExaminedMove == "b")
+                                        {
+
+                                        }
+                                        //*
+                                        if (fishExaminedMove == "C" || fishExaminedMove == "c")
                                         {
                                             Console.Write(@"Health - " + playerHP + "/" + playerMaxHP +
-                "Attack - " + playerATK +
-                "Defence - " + playerDEF +
-                "Inventory - ");
+"Attack - " + playerATK +
+"Defence - " + playerDEF +
+"Inventory - ");
                                             printInvo(Inventory);
                                             Console.WriteLine();
                                             continue;
@@ -1632,18 +1613,13 @@ Search?");
                                         }
                                     }
                                 }
-                                //-
-                                if (woodsFoodMove1 == "B" || woodsFoodMove1 == "b")
-                                {
-
-                                }
                                 //*
-                                if (woodsFoodMove1 == "C" || woodsFoodMove1 == "c")
+                                if (woodsPondFoodMove1 == "C" || woodsPondFoodMove1 == "c")
                                 {
                                     Console.Write(@"Health - " + playerHP + "/" + playerMaxHP +
-            "Attack - " + playerATK +
-            "Defence - " + playerDEF +
-            "Inventory - ");
+"Attack - " + playerATK +
+"Defence - " + playerDEF +
+"Inventory - ");
                                     printInvo(Inventory);
                                     Console.WriteLine();
                                     continue;
@@ -1654,8 +1630,31 @@ Search?");
                                     continue;
                                 }
                             }
+                        }
+                        //-
+                        if (woodsFoodMove1 == "B" || woodsFoodMove1 == "b")
+                        {
 
                         }
+                        //*
+                        if (woodsFoodMove1 == "C" || woodsFoodMove1 == "c")
+                        {
+                            Console.Write(@"Health - " + playerHP + "/" + playerMaxHP +
+"Attack - " + playerATK +
+"Defence - " + playerDEF +
+"Inventory - ");
+                            printInvo(Inventory);
+                            Console.WriteLine();
+                            continue;
+                        }
+                        //*
+                        else
+                        {
+                            continue;
+                        }
+                    }
+
+                }
                 //-
                 if (woodsMove1 == "C" || woodsMove1 == "c")
                 {
