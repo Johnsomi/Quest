@@ -880,11 +880,117 @@ Move!
                                                                                                                                                         //-
                                                                                                                                                         if (whatToSkinWith == "A" || whatToSkinWith == "a")
                                                                                                                                                         {
+                                                                                                                                                            Inventory.Add("Incomplete Strange Deer Pelt");                                                                                                                                                          
                                                                                                                                                             Console.Write("You use your blade to skin the deer. \n" +
                                                                                                                                                                 "You cut into it softly to not damage the blade more. \n" +
                                                                                                                                                                 "cutting from the base of the neck down to the stomach. \n" +
-                                                                                                                                                                "Though its pelt is very tough, you realize it was the deer's muscles the bent your blade. \n" +
-                                                                                                                                                                "You finish ");
+                                                                                                                                                                "Though its pelt is very tough, you realize it was the deer's muscles that bent your blade. \n" +
+                                                                                                                                                                "You finish skinning the deer but you don't have the supplies to finish preparing it. \n" +
+                                                                                                                                                                "You now have a lot of meat and an unprepared deer pelt. \n" +
+                                                                                                                                                                "Do you want to eat the meat? \n" +
+                                                                                                                                                                "(A). Yes? \n" +
+                                                                                                                                                                "(B). No? \n" +
+                                                                                                                                                                "\n");
+
+                                                                                                                                                            while (true)
+                                                                                                                                                            {
+                                                                                                                                                                string eatStrangeDeer = Console.ReadLine();
+                                                                                                                                                                //-
+                                                                                                                                                                if (eatStrangeDeer == "A" || eatStrangeDeer == "a")
+                                                                                                                                                                {
+                                                                                                                                                                    Console.Write("How do you wish to eat it? \n" +
+                                                                                                                                                                        "(A). Savagely? \n" +
+                                                                                                                                                                        "(B). Cooked like a sane person? \n" +
+                                                                                                                                                                        "\n");
+
+                                                                                                                                                                    while (true)
+                                                                                                                                                                    {
+                                                                                                                                                                        string eatStrangeDeerRaw = Console.ReadLine();
+                                                                                                                                                                        //* Dead
+                                                                                                                                                                        if (eatStrangeDeerRaw == "A" || eatStrangeDeerRaw == "a")
+                                                                                                                                                                        {
+                                                                                                                                                                            Console.Write("You bite down into the deer's flesh like a savage animal. \n" +
+                                                                                                                                                                                "You try to tear off its flesh with your teeth, but if you remember the knife, \n" +
+                                                                                                                                                                                "You can figure out what happens. \n" +
+                                                                                                                                                                                "You bit down with such force, you were able to sink your teeth in, \n" +
+                                                                                                                                                                                "But they didn't come back out with you. \n" +
+                                                                                                                                                                                "And because of the battle, lack of food and water, your to exhausted to move. \n" +
+                                                                                                                                                                                "You collapse to the ground and sadly, you don't get back up. \n" +
+                                                                                                                                                                                "You died");
+                                                                                                                                                                            Console.ReadKey();
+                                                                                                                                                                            Environment.Exit(0);
+                                                                                                                                                                        }
+                                                                                                                                                                        //-
+                                                                                                                                                                        if (eatStrangeDeerRaw == "B" || eatStrangeDeerRaw == "b")
+                                                                                                                                                                        {
+                                                                                                                                                                            Console.Write("You gather a few branches and dead leaves. \n" +
+                                                                                                                                                                                "Using your flint, you start a fire. \n" +
+                                                                                                                                                                                "Problem, the meat is to tough to put a stick through. \n" +
+                                                                                                                                                                                "What do you do? \n" +
+                                                                                                                                                                                "(A). Stick it in harder? \n" +
+                                                                                                                                                                                "(B). Pinch it? \n" +
+                                                                                                                                                                                "(C). Throw it? \n" +
+                                                                                                                                                                                "\n");
+
+                                                                                                                                                                            while (true)
+                                                                                                                                                                            {
+                                                                                                                                                                                string howToCookDeer = Console.ReadLine();
+                                                                                                                                                                                //-
+                                                                                                                                                                                if (howToCookDeer == "A" || howToCookDeer == "a")
+                                                                                                                                                                                {
+                                                                                                                                                                                    Console.Write("With all your might, you plunge the stick into the meat. \n" +
+                                                                                                                                                                                        "It broke, try something else. \n" +
+                                                                                                                                                                                        "\n");
+
+                                                                                                                                                                                    continue;
+                                                                                                                                                                                }
+                                                                                                                                                                                //-
+                                                                                                                                                                                if (howToCookDeer == "B" || howToCookDeer == "b")
+                                                                                                                                                                                {
+                                                                                                                                                                                    Console.Write("You place the peice of meat on a stick and using another, pinch the meat. \n" +
+                                                                                                                                                                                        "You hold the meat over the fire and slowly roast it. \n" +
+                                                                                                                                                                                        "Over the span of three hours, the meat finally becomes soft enough to eat. \n" +
+                                                                                                                                                                                        "It was completely worth it. \n" +
+                                                                                                                                                                                        "It tasted like a four course dinner wrapped into a single bite. \n" +
+                                                                                                                                                                                        "The sharp punch you would get at one of the finest eateries, \n" +
+                                                                                                                                                                                        "But smooth and sweet like Grandma's old beef stew. \n" +
+                                                                                                                                                                                        "Perfect balance. \n" +
+                                                                                                                                                                                        "After just one bite you fell into a deep sleep. \n" +
+                                                                                                                                                                                        "Hey, write this down you'll need it for the next level: NWDeerDgArmDgBldHp7LV2");
+
+                                                                                                                                                                                    Console.ReadKey();
+                                                                                                                                                                                    Environment.Exit(0);
+                                                                                                                                                                                }
+                                                                                                                                                                                //-
+                                                                                                                                                                                if (howToCookDeer == "C" || howToCookDeer == "c")
+                                                                                                                                                                                {
+                                                                                                                                                                                    Console.Write("");
+                                                                                                                                                                                }
+                                                                                                                                                                                //*
+                                                                                                                                                                                else
+                                                                                                                                                                                {
+                                                                                                                                                                                    continue;
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                        //*
+                                                                                                                                                                        else
+                                                                                                                                                                        {
+                                                                                                                                                                            continue;
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                                //-
+                                                                                                                                                                if (eatStrangeDeer == "B" || eatStrangeDeer == "b")
+                                                                                                                                                                {
+                                                                                                                                                                    Console.Write("");
+                                                                                                                                                                }
+                                                                                                                                                                //*
+                                                                                                                                                                else
+                                                                                                                                                                {
+                                                                                                                                                                    continue;
+                                                                                                                                                                }
+                                                                                                                                                            }
                                                                                                                                                         }
                                                                                                                                                         //-
                                                                                                                                                         if (whatToSkinWith == "B" || whatToSkinWith == "b")
