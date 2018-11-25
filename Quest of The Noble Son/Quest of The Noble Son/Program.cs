@@ -935,7 +935,7 @@ Move!
                                                                                                                                                                             while (true)
                                                                                                                                                                             {
                                                                                                                                                                                 string howToCookDeer = Console.ReadLine();
-                                                                                                                                                                                //-
+                                                                                                                                                                                //*
                                                                                                                                                                                 if (howToCookDeer == "A" || howToCookDeer == "a")
                                                                                                                                                                                 {
                                                                                                                                                                                     Console.Write("With all your might, you plunge the stick into the meat. \n" +
@@ -944,7 +944,7 @@ Move!
 
                                                                                                                                                                                     continue;
                                                                                                                                                                                 }
-                                                                                                                                                                                //-
+                                                                                                                                                                                //*LV2
                                                                                                                                                                                 if (howToCookDeer == "B" || howToCookDeer == "b")
                                                                                                                                                                                 {
                                                                                                                                                                                     Console.Write("You place the peice of meat on a stick and using another, pinch the meat. \n" +
@@ -964,7 +964,34 @@ Move!
                                                                                                                                                                                 //-
                                                                                                                                                                                 if (howToCookDeer == "C" || howToCookDeer == "c")
                                                                                                                                                                                 {
-                                                                                                                                                                                    Console.Write("");
+                                                                                                                                                                                    Console.Write("You get mad and throw the meat as far as you can. \n" +
+                                                                                                                                                                                        "CRASH! \n" +
+                                                                                                                                                                                        "You hear a loud crash. \n" +
+                                                                                                                                                                                        "Really? That's the line? Whatever you say. \n" +
+                                                                                                                                                                                        "What do you do? \n" +
+                                                                                                                                                                                        "(A). Head towards the sound? \n" +
+                                                                                                                                                                                        "(B). Try to cook the rest of the meat? \n" +
+                                                                                                                                                                                        "\n");
+
+                                                                                                                                                                                    while (true)
+                                                                                                                                                                                    {
+                                                                                                                                                                                        string meatSound = Console.ReadLine();
+                                                                                                                                                                                        //-
+                                                                                                                                                                                        if (meatSound == "A" || meatSound == "a")
+                                                                                                                                                                                        {
+
+                                                                                                                                                                                        }
+                                                                                                                                                                                        //-
+                                                                                                                                                                                        if (meatSound == "B" || meatSound == "b")
+                                                                                                                                                                                        {
+
+                                                                                                                                                                                        }
+                                                                                                                                                                                        //*
+                                                                                                                                                                                        else
+                                                                                                                                                                                        {
+                                                                                                                                                                                            continue;
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
                                                                                                                                                                                 }
                                                                                                                                                                                 //*
                                                                                                                                                                                 else
