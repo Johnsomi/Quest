@@ -979,7 +979,7 @@ Move!
                                                                                                                                                                                         //-
                                                                                                                                                                                         if (meatSound == "A" || meatSound == "a")
                                                                                                                                                                                         {
-
+                                                                                                                                                                                            Console.Write("");
                                                                                                                                                                                         }
                                                                                                                                                                                         //-
                                                                                                                                                                                         if (meatSound == "B" || meatSound == "b")
