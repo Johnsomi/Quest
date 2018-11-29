@@ -965,12 +965,11 @@ Move!
                                                                                                                                                                                 if (howToCookDeer == "C" || howToCookDeer == "c")
                                                                                                                                                                                 {
                                                                                                                                                                                     Console.Write("You get mad and throw the meat as far as you can. \n" +
-                                                                                                                                                                                        "CRASH! \n" +
-                                                                                                                                                                                        "You hear a loud crash. \n" +
-                                                                                                                                                                                        "Really? That's the line? Whatever you say. \n" +
+                                                                                                                                                                                        "A few seconds later you hear a loud crash. \n" +                                                                                                                                                                                     
+                                                                                                                                                                                        "It's almost deafening, much louder than what the meat alone could do. \n" +
                                                                                                                                                                                         "What do you do? \n" +
-                                                                                                                                                                                        "(A). Head towards the sound? \n" +
-                                                                                                                                                                                        "(B). Try to cook the rest of the meat? \n" +
+                                                                                                                                                                                        "(A). Investigate? \n" +
+                                                                                                                                                                                        "(B). Ignore it? \n" +
                                                                                                                                                                                         "\n");
 
                                                                                                                                                                                     while (true)
@@ -984,7 +983,7 @@ Move!
                                                                                                                                                                                         //-
                                                                                                                                                                                         if (meatSound == "B" || meatSound == "b")
                                                                                                                                                                                         {
-
+                                                                                                                                                                                            Console.Write("");
                                                                                                                                                                                         }
                                                                                                                                                                                         //*
                                                                                                                                                                                         else
